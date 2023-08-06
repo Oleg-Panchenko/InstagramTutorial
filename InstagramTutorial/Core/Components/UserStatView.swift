@@ -1,0 +1,30 @@
+//
+//  UserStatView.swift
+//  InstagramTutorial
+//
+//  Created by Panchenko Oleg on 06.08.2023.
+//
+
+import SwiftUI
+
+struct UserStatView: View {
+    let value: Int
+    let title: String
+    var body: some View {
+        VStack {
+            Text("\(value)")
+                .font(.footnote)
+                .fontWeight(.semibold)
+
+            Text(title)
+                .font(.footnote)
+        }
+        .frame(width: 80)
+    }
+}
+
+struct UserStatView_Previews: PreviewProvider {
+    static var previews: some View {
+        UserStatView(value: 12, title: "Posts")
+    }
+}

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D06ADE682A7F08AA008E2648 /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06ADE672A7F08AA008E2648 /* UserStatView.swift */; };
 		D082731F2A7DA32400F36540 /* InstagramTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D082731E2A7DA32400F36540 /* InstagramTutorialApp.swift */; };
 		D08273212A7DA32400F36540 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08273202A7DA32400F36540 /* ContentView.swift */; };
 		D08273232A7DA32600F36540 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D08273222A7DA32600F36540 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D06ADE672A7F08AA008E2648 /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
 		D082731B2A7DA32400F36540 /* InstagramTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D082731E2A7DA32400F36540 /* InstagramTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramTutorialApp.swift; sourceTree = "<group>"; };
 		D08273202A7DA32400F36540 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +38,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D06ADE662A7F0887008E2648 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D06ADE672A7F08AA008E2648 /* UserStatView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		D08273122A7DA32400F36540 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				D08273352A7DA41A00F36540 /* Authentication */,
+				D06ADE662A7F0887008E2648 /* Components */,
 				D08273362A7DA42700F36540 /* Feed */,
 				D08273372A7DA42E00F36540 /* Profile */,
 				D08273382A7DA43500F36540 /* Root */,
@@ -243,6 +254,7 @@
 				D082733F2A7DA67400F36540 /* ProfileView.swift in Sources */,
 				D08273212A7DA32400F36540 /* ContentView.swift in Sources */,
 				D082731F2A7DA32400F36540 /* InstagramTutorialApp.swift in Sources */,
+				D06ADE682A7F08AA008E2648 /* UserStatView.swift in Sources */,
 				D082733D2A7DA4C200F36540 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
