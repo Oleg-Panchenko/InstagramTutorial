@@ -12,8 +12,8 @@ struct FeedView: View {
         NavigationStack {
             ScrollView {
                 LazyVStack(spacing: 32) {
-                    ForEach(0 ... 10, id: \.self) { post in
-                        FeedCell()
+                    ForEach(Post.MOCK_POSTS) { post in
+                        FeedCell(post: post)
                     }
                 }
                 .padding(.top, 8)
@@ -24,7 +24,7 @@ struct FeedView: View {
                 ToolbarItem(placement: .navigationBarLeading) {
                     Image("instagram")
                         .resizable()
-                        .frame(width: 100, height: 32)
+                        .frame(width: 100, height: 35)
                 }
 
                 ToolbarItem(placement: .navigationBarTrailing) {
