@@ -33,6 +33,7 @@
 		D09C31FB2A84283800FD0567 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = D09C31FA2A84283800FD0567 /* FirebaseStorage */; };
 		D09C31FF2A842B8900FD0567 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09C31FE2A842B8900FD0567 /* AuthService.swift */; };
 		D09C32032A842F9800FD0567 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09C32022A842F9800FD0567 /* ContentViewModel.swift */; };
+		D0A0772B2A84DBBE0012E96F /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A0772A2A84DBBE0012E96F /* RegistrationViewModel.swift */; };
 		D0E69D492A7FACAA0011F070 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E69D482A7FACAA0011F070 /* FeedView.swift */; };
 		D0E69D4B2A7FACB40011F070 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E69D4A2A7FACB40011F070 /* FeedCell.swift */; };
 		D0EEF6202A82D97100A04C4B /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EEF61F2A82D97100A04C4B /* PostGridView.swift */; };
@@ -63,6 +64,7 @@
 		D09C31F12A84271200FD0567 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D09C31FE2A842B8900FD0567 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		D09C32022A842F9800FD0567 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		D0A0772A2A84DBBE0012E96F /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
 		D0E69D482A7FACAA0011F070 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		D0E69D4A2A7FACB40011F070 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		D0EEF61F2A82D97100A04C4B /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
@@ -183,8 +185,9 @@
 		D08273352A7DA41A00F36540 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
-				D09C31FD2A842B6A00FD0567 /* Service */,
 				D09C31FC2A842B2800FD0567 /* View */,
+				D0A077292A84DAE80012E96F /* ViewModel */,
+				D09C31FD2A842B6A00FD0567 /* Service */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -276,6 +279,14 @@
 				D08273202A7DA32400F36540 /* ContentView.swift */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		D0A077292A84DAE80012E96F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D0A0772A2A84DBBE0012E96F /* RegistrationViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -371,6 +382,7 @@
 				D0EEF6202A82D97100A04C4B /* PostGridView.swift in Sources */,
 				D08363F62A80EAFE00D9A82E /* CreateUsernameView.swift in Sources */,
 				D09C32032A842F9800FD0567 /* ContentViewModel.swift in Sources */,
+				D0A0772B2A84DBBE0012E96F /* RegistrationViewModel.swift in Sources */,
 				D064A0DD2A83A27F00627140 /* UploadPostViewModel.swift in Sources */,
 				D0EEF6222A82DB9C00A04C4B /* ProfileHeaderView.swift in Sources */,
 				D08363FA2A80FCA800D9A82E /* CompleteSignUpView.swift in Sources */,
