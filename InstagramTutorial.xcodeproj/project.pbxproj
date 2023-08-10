@@ -34,6 +34,7 @@
 		D09C31FF2A842B8900FD0567 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09C31FE2A842B8900FD0567 /* AuthService.swift */; };
 		D09C32032A842F9800FD0567 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09C32022A842F9800FD0567 /* ContentViewModel.swift */; };
 		D0A0772B2A84DBBE0012E96F /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A0772A2A84DBBE0012E96F /* RegistrationViewModel.swift */; };
+		D0A0772D2A84F30A0012E96F /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A0772C2A84F30A0012E96F /* LoginViewModel.swift */; };
 		D0E69D492A7FACAA0011F070 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E69D482A7FACAA0011F070 /* FeedView.swift */; };
 		D0E69D4B2A7FACB40011F070 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E69D4A2A7FACB40011F070 /* FeedCell.swift */; };
 		D0EEF6202A82D97100A04C4B /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EEF61F2A82D97100A04C4B /* PostGridView.swift */; };
@@ -65,6 +66,7 @@
 		D09C31FE2A842B8900FD0567 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		D09C32022A842F9800FD0567 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		D0A0772A2A84DBBE0012E96F /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		D0A0772C2A84F30A0012E96F /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		D0E69D482A7FACAA0011F070 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		D0E69D4A2A7FACB40011F070 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		D0EEF61F2A82D97100A04C4B /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
@@ -285,6 +287,7 @@
 			isa = PBXGroup;
 			children = (
 				D0A0772A2A84DBBE0012E96F /* RegistrationViewModel.swift */,
+				D0A0772C2A84F30A0012E96F /* LoginViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -382,6 +385,7 @@
 				D0EEF6202A82D97100A04C4B /* PostGridView.swift in Sources */,
 				D08363F62A80EAFE00D9A82E /* CreateUsernameView.swift in Sources */,
 				D09C32032A842F9800FD0567 /* ContentViewModel.swift in Sources */,
+				D0A0772D2A84F30A0012E96F /* LoginViewModel.swift in Sources */,
 				D0A0772B2A84DBBE0012E96F /* RegistrationViewModel.swift in Sources */,
 				D064A0DD2A83A27F00627140 /* UploadPostViewModel.swift in Sources */,
 				D0EEF6222A82DB9C00A04C4B /* ProfileHeaderView.swift in Sources */,
