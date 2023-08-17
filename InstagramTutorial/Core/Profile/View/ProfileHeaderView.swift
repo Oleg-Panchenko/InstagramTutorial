@@ -35,7 +35,6 @@ struct ProfileHeaderView: View {
             .padding(.horizontal)
 
             //name and bio
-
             VStack(alignment: .leading, spacing: 4) {
                 Text(user.fullName ?? "")
                     .font(.footnote)
@@ -71,7 +70,7 @@ struct ProfileHeaderView: View {
             Divider()
         }
         .fullScreenCover(isPresented: $showEditPfofile) {
-            Text("Edit profile view")
+            EditProfileView(user: user)
         }
     }
 }
