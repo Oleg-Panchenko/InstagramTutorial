@@ -11,6 +11,7 @@
 		D00BE87E2A882387006440A7 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00BE87D2A882387006440A7 /* SearchViewModel.swift */; };
 		D01E1FCE2A891365002BFB1D /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1FCD2A891364002BFB1D /* EditProfileView.swift */; };
 		D01E1FD22A891D72002BFB1D /* EditProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1FD12A891D72002BFB1D /* EditProfileViewModel.swift */; };
+		D053693B2A8F67240099B67B /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D053693A2A8F67240099B67B /* ImageUploader.swift */; };
 		D05712422A801B3A006D3CEB /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05712412A801B3A006D3CEB /* SearchView.swift */; };
 		D05712442A802960006D3CEB /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05712432A802960006D3CEB /* LoginView.swift */; };
 		D064A0DB2A839D2A00627140 /* UploadPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D064A0DA2A839D2A00627140 /* UploadPostView.swift */; };
@@ -50,6 +51,7 @@
 		D00BE87D2A882387006440A7 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		D01E1FCD2A891364002BFB1D /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
 		D01E1FD12A891D72002BFB1D /* EditProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewModel.swift; sourceTree = "<group>"; };
+		D053693A2A8F67240099B67B /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
 		D05712412A801B3A006D3CEB /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		D05712432A802960006D3CEB /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		D064A0DA2A839D2A00627140 /* UploadPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostView.swift; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				D00BE8792A88223F006440A7 /* UserService.swift */,
+				D053693A2A8F67240099B67B /* ImageUploader.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -433,6 +436,7 @@
 				D09C32032A842F9800FD0567 /* ContentViewModel.swift in Sources */,
 				D01E1FCE2A891365002BFB1D /* EditProfileView.swift in Sources */,
 				D0A0772D2A84F30A0012E96F /* LoginViewModel.swift in Sources */,
+				D053693B2A8F67240099B67B /* ImageUploader.swift in Sources */,
 				D0A0772B2A84DBBE0012E96F /* RegistrationViewModel.swift in Sources */,
 				D064A0DD2A83A27F00627140 /* UploadPostViewModel.swift in Sources */,
 				D0EEF6222A82DB9C00A04C4B /* ProfileHeaderView.swift in Sources */,
