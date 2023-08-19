@@ -5,6 +5,7 @@
 //  Created by Panchenko Oleg on 06.08.2023.
 //
 
+import Kingfisher
 import SwiftUI
 
 struct FeedCell: View {
@@ -26,7 +27,7 @@ struct FeedCell: View {
             .padding(.leading, 8)
 
             //post image
-            Image(post.imageUrl)
+            KFImage(URL(string: post.imageUrl))
                 .resizable()
                 .scaledToFill()
                 .frame(height: 400)
@@ -68,7 +69,6 @@ struct FeedCell: View {
                 .padding(.leading, 10)
 
             //caption label
-
             HStack {
                 Text("\(post.user?.username ?? "") ").fontWeight(.semibold) +
                 Text(post.caption)
@@ -78,7 +78,7 @@ struct FeedCell: View {
             .padding(.top, 1)
             .padding(.leading, 10)
 
-            Text("6h ago")
+            Text("\(post.timestamp.dateValue())")
                 .font(.footnote)
                 .foregroundColor(.gray)
                 .frame(maxWidth: .infinity, alignment: .leading)
