@@ -43,6 +43,8 @@
 		D09C32032A842F9800FD0567 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09C32022A842F9800FD0567 /* ContentViewModel.swift */; };
 		D0A0772B2A84DBBE0012E96F /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A0772A2A84DBBE0012E96F /* RegistrationViewModel.swift */; };
 		D0A0772D2A84F30A0012E96F /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A0772C2A84F30A0012E96F /* LoginViewModel.swift */; };
+		D0A644BC2A9208790036A07D /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A644BB2A9208790036A07D /* PostService.swift */; };
+		D0A644C02A920E4F0036A07D /* PostGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A644BF2A920E4F0036A07D /* PostGridViewModel.swift */; };
 		D0E69D492A7FACAA0011F070 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E69D482A7FACAA0011F070 /* FeedView.swift */; };
 		D0E69D4B2A7FACB40011F070 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E69D4A2A7FACB40011F070 /* FeedCell.swift */; };
 		D0EEF6202A82D97100A04C4B /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EEF61F2A82D97100A04C4B /* PostGridView.swift */; };
@@ -82,6 +84,8 @@
 		D09C32022A842F9800FD0567 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		D0A0772A2A84DBBE0012E96F /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
 		D0A0772C2A84F30A0012E96F /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		D0A644BB2A9208790036A07D /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
+		D0A644BF2A920E4F0036A07D /* PostGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridViewModel.swift; sourceTree = "<group>"; };
 		D0E69D482A7FACAA0011F070 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		D0E69D4A2A7FACB40011F070 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		D0EEF61F2A82D97100A04C4B /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
@@ -184,10 +188,8 @@
 		D06ADE662A7F0887008E2648 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				D06ADE672A7F08AA008E2648 /* UserStatView.swift */,
-				D08363F32A80E99000D9A82E /* IGTextFieldModifier.swift */,
-				D0EEF61F2A82D97100A04C4B /* PostGridView.swift */,
-				D02E3DB52A8FFFF70006D652 /* CircularProfileImageView.swift */,
+				D0A644BD2A920E130036A07D /* View */,
+				D0A644BE2A920E190036A07D /* ViewModel */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -236,6 +238,7 @@
 			children = (
 				D00BE8792A88223F006440A7 /* UserService.swift */,
 				D053693A2A8F67240099B67B /* ImageUploader.swift */,
+				D0A644BB2A9208790036A07D /* PostService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -378,6 +381,25 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		D0A644BD2A920E130036A07D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D06ADE672A7F08AA008E2648 /* UserStatView.swift */,
+				D08363F32A80E99000D9A82E /* IGTextFieldModifier.swift */,
+				D0EEF61F2A82D97100A04C4B /* PostGridView.swift */,
+				D02E3DB52A8FFFF70006D652 /* CircularProfileImageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D0A644BE2A920E190036A07D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D0A644BF2A920E4F0036A07D /* PostGridViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -476,7 +498,9 @@
 				D08363F62A80EAFE00D9A82E /* CreateUsernameView.swift in Sources */,
 				D00BF6982A9112C1000EE9F2 /* FeedViewModel.swift in Sources */,
 				D09C32032A842F9800FD0567 /* ContentViewModel.swift in Sources */,
+				D0A644BC2A9208790036A07D /* PostService.swift in Sources */,
 				D01E1FCE2A891365002BFB1D /* EditProfileView.swift in Sources */,
+				D0A644C02A920E4F0036A07D /* PostGridViewModel.swift in Sources */,
 				D0A0772D2A84F30A0012E96F /* LoginViewModel.swift in Sources */,
 				D053693B2A8F67240099B67B /* ImageUploader.swift in Sources */,
 				D0A0772B2A84DBBE0012E96F /* RegistrationViewModel.swift in Sources */,
